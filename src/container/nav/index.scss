@@ -9,7 +9,10 @@ padding: 24px;
 border-radius: 60px;
 max-width: 620px;
 width: 100%;
-background-color: grey;
+background-image: url(/img/ff.jpg);
+background-size: no-repeat;
+background-position: top;
+background-size: cover;
 
 display: flex;
 gap: 16px;
@@ -29,15 +32,13 @@ gap: 16px;
 }
 
 &__input {
-background-color:black;
+	background-image: none;
+	border: 3px solid #fff;
+background-color:rgba(24, 23, 21, 0.8);
 border-radius:60px;
 padding:0 20px;
 color:white;
 width: 100%;
+font-size: 30px;
 }
-
-
-
-
-
 }

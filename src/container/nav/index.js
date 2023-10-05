@@ -32,11 +32,11 @@ class Nav {
   }
 
   static init = () => {
-    windo.back.onclick = this.#back
-    windo.forward.onclick = this.#forward
-    windo.reload.onclick = this.#reload
-    windo.home.onclick = this.#home
-    windo.go.onclick = this.#go
+    window.back.onclick = this.#back
+    window.forward.onclick = this.#forward
+    window.reload.onclick = this.#reload
+    window.home.onclick = this.#home
+    window.go.onclick = this.#go
 
     window.input.value = location.href
   }
